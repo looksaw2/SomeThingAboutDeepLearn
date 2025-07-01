@@ -1,0 +1,12 @@
+dataset:
+  Name: "NUAA"
+  data_root: "./../../data/NUAA"
+  base_size: 512
+  crop_size: 512
+  data_aug: true
+  suffix: "png"
+  num_workers: 8
+  train_batch: 16
+  test_batch: 8
+  train_dir: "trainval"
+  test_dir: "test"

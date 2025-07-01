@@ -1,0 +1,12 @@
+dataset:
+  Name: "NUDT"
+  data_root: "./../../data/NUDT"
+  base_size: 256
+  crop_size: 256
+  data_aug: true
+  suffix: "png"
+  num_workers: 8
+  train_batch: 32
+  test_batch: 16
+  train_dir: "trainval"
+  test_dir: "test"
